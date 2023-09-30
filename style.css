@@ -1,0 +1,290 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.pt{
+  padding: 20px 0px;
+}
+.textCenter{
+  text-align: center;
+}
+.textLeft{
+  text-align: left;
+}
+.textLeft, h2, b, p,button {
+  text-align: left;
+  display: block;
+}
+/* ====================== */
+body{
+  border: 1px solid red;
+  width: 1000px;
+  margin: auto;
+}
+/* ====================== */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(130, 121, 121);
+}
+
+.headerlogo{
+  margin-left: 15px;
+}
+.headerlogo a img{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+}
+.ul{
+  display: flex;
+  
+}
+.ul li{
+  margin: 0 1px;
+  list-style: none;
+}
+.ul li a{
+  text-transform: uppercase;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px 15px;
+  transition: 1s;
+}
+.ul li a:hover{
+  background-color: rgb(21, 108, 229);
+
+
+}
+form{
+  background-color: antiquewhite;
+  margin: 0 10px 0 0;
+  border-radius: 25px;
+  display: flex;
+}
+input{
+  border: none;
+ outline: none;
+ padding: 5px 6px;
+ border-radius: 25px;
+ box-sizing: border-box;
+}
+.top-from button{
+  border-radius: 25px;
+  padding: 2px 1px;
+  border: none;
+  outline: none;
+  background-color: rgb(169, 118, 55);
+}
+/* end header ===========================*/
+.bannar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: cornflowerblue;
+}
+.bannardiv1{
+  text-align: center;
+  width: 300px;
+  height: auto;
+}
+.bannardiv2 img{
+  width: 300px;
+  height: auto;
+}
+/* bannar end here ========================== */
+.service{}
+.serviceItem{
+  display: flex;
+  justify-content: space-between;
+}
+.serviceItem > div{
+  background-color: rgb(236, 232, 232);
+  margin: 5px;
+  transition: .40s;
+}
+.serviceItem > div:hover{
+  margin: 5px;
+  background-color: rgb(21, 108, 229);
+
+}
+
+.serviceItem > div >div {
+  text-align: center;
+}
+.serviceItem > div >div >img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+/* =============team  */
+.team-list{
+  display: flex;
+  justify-content: space-around;
+}
+.team-member{
+  padding: 5px;
+  width: 300px;
+  text-align: center;
+  background-color: rgb(236, 232, 232);
+}
+.team-member figure img{
+  width:100% ;
+}
+
+
+/* project plan */
+
+.plan-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.plan-list .plan{
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 15px;
+  transition: .50s;
+  background-color: rgb(236, 232, 232);
+ }
+.plan-list .plan:hover{
+ 
+  background-color: rgb(21, 108, 229);
+ }
+ .plan-list .plan h2{
+  text-align: center;
+ }
+.plan .icon{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.plan .icon p{
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid goldenrod;
+}
+.plan b{
+  text-align: center;
+}
+.plan-desc p{
+  text-align: center;
+}
+.butto button{
+  margin:5px auto;
+  padding:0 15px;
+
+}
+.pad{
+  padding: 33px 20px !important;
+}
+/* ==============addmins */
+.addmin-list{
+  display: flex;
+  justify-content: center;
+}
+.addmin{
+  text-align: center;
+  width: 40%;
+  padding: 35px;
+  margin: 2px;
+  transition: .60s;
+  box-sizing: border-box;
+  background-color: rgb(236, 232, 232);
+}
+.addmin:hover{
+  background-color: rgb(21, 108, 229);
+}
+.addmin figure img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.addmin p{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+
+/* ===============project plan end  */
+/* ===============project plan end  */
+.inp{
+  display: flex;
+  width: 190px;
+  border-radius: 25px;
+}
+.inp input{
+  box-sizing: border-box;
+width: 90%;
+border-radius: 25px;
+background-color: grey;
+padding: 0 5px;
+}
+.inp button{
+  height: 20px;
+width: 20px;
+text-align: center;
+border-radius: 25px;
+background-color: grey;
+
+}
+
+/* ====================footer  */
+.footer-item{
+  display: flex;
+  justify-content: space-around;
+}
+.footer{
+  width: 27%;
+}
+
+.footer div ul {
+  list-style: none;
+  list-style: none;
+}
+.footer div ul li a{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 1px 0;
+  text-decoration: none;
+ width: 100%;
+ display: block;
+ transition: 1s;
+ background-color: rgb(236, 232, 232);
+}
+.footer div ul li a:hover{
+  background-color: rgb(21, 108, 229);
+}
+
+.f-ul{
+  list-style: none;
+  display: flex;
+  padding: 5px 1px;
+  margin-left: -8px;
+}
+.f-ul li {
+  margin: 2px;
+}
+.f-ul li a{
+  box-sizing: border-box;
+  padding: 1px 5px;
+  font-size: 15px !important;
+  margin: 2px !important;
+  background-color: aquamarine !important;
+  border-radius: 20px;
+}
+
