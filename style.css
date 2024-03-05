@@ -78,7 +78,7 @@ input{
   padding: 2px 1px;
   border: none;
   outline: none;
-  background-color: rgb(169, 118, 55);
+  background-color: rgb(gray);
 }
 /* end header ===========================*/
 .bannar{
