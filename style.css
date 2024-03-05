@@ -61,7 +61,7 @@ border-radius: 50%;
 
 }
 form{
-  background-color: antiquewhite;
+  background-color: transparent;
   margin: 0 10px 0 0;
   border-radius: 25px;
   display: flex;
